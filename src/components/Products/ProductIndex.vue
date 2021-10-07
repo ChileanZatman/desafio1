@@ -1,5 +1,6 @@
 <template >
     <div>
+        Lista de Productos
         <form @submit.prevent="saveProduct">
             <table>
                 <tr>

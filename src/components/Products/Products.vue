@@ -1,7 +1,10 @@
 <template>
     <div>
+        <center>Mantenedor de Productos</center>
         <ProductForm @submit="addProduct"/>
-        <ProductIndex :productList="productList" @delete="removeProduct" @edit="editProduct"/>
+        <br>
+        <br>
+        <center><ProductIndex :productList="productList" @delete="removeProduct" @edit="editProduct"/></center>
     </div>
 </template>
 <script>
